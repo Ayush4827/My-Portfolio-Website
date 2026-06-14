@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #f5f4fb;
+    position: relative;
+}
+
+.hero h3 {
+    color: #555;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    color: #555;
+}
+
+.resume-btn {
+    background-color: #534AB7;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 1px solid #534AB7;
+    color: white;
+    font-weight: bold;
+    padding: 6px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.resume-btn:hover{
+    background-color: #dcd9f7;
+    color: black
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    background-color: #dcd9f7;
+    color: #534AB7;
+    border-radius: 50%;
+    margin: 30px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-btn {
+    background-color: #534AB7;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.main-btn:hover{
+    background-color: purple;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+.container.gray {
+    max-width: 100%;
+    background-color: #f5f4fb;
+}
+
+.container.gray h2,
+.container.gray p,
+.container.gray div {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+}
+
+.container p {
+    margin-bottom: 15px;
+    color: #555;
+}
+.exp-box {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.exp-box h3 {
+    margin-bottom: 5px;
+}
+
+.exp-box p {
+    margin-bottom: 0;
+    color: #555;
+}
+
+
+.skill-tag {
+    display: inline-block;
+    background-color: #dcd9f7;
+    color: #534AB7;
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+}
+.project-box {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.project-box h3 {
+    margin-bottom: 10px;
+}
+
+.project-box p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.project-box a {
+    color: #534AB7;
+    font-weight: bold;
+}
+form input,
+form textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+#formMsg {
+    margin-top: 10px;
+    color: green; }
